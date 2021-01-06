@@ -50,16 +50,16 @@ SOFTWARE. -->
 	<color name="weird-gray" value="#909194"/>
 
 	<!-- General -->
-	<style name="text" foreground="bone-white" 
-	background="background"/>
+	<style name="text" foreground="bone-white" background="background"/>
 	<style name="selection" background="selection"/>
 	<style name="cursor" foreground="white" background="white"/>
 	<style name="current-line" foreground="current-line" background="current-line"/>
 	<style name="line-numbers" foreground="weird-gray" background="line-numbers"/>
-	<style name="bracket-match" foreground="bone-white" background="current-line" bold="true"/>
+	<style name="bracket-match" foreground="bone-white" background="#6f7286" bold="true"/>
 	<style name="bracket-mismatch" foreground="red" background="current-line" bold="true"/>
 	<style name="search-match" background="current-line"/>
     <style name="background-pattern" background="#2f313e"/>
+	<style name="def:error" background="red" bold="true"/>
 	
 	<!-- Common -->
 	<style name="def:function" foreground="green"/>
