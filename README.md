@@ -1,6 +1,6 @@
 # Agenwulf Color Scheme
 
-A modified version of the Dracula color scheme, with support for the [Remarqué](https://github.com/Positron11/remarque) tree-based note-taking language.
+A pastel color scheme, with a dark and light theme, and support for the [Remarqué](https://github.com/Positron11/remarque) tree-based note-taking language.
 
 
 
