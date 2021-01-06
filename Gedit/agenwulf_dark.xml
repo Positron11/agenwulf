@@ -1,41 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
-<!-- The MIT License (MIT)
-
-Copyright (c) 2020-present Agenwulf Theme
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE. -->
-
-
-<style-scheme id="agenwulf" name="Agenwulf" version="1.0">
+<style-scheme id="agenwulf_dark" name="Agenwulf Dark" version="1.0">
 	<!-- Meta -->
 	<author>Aarush Kumbhakern</author>
 	<_description>A dark theme for Gedit</_description>
 
-	<!-- Dracula colors -->
-	<color name="background" value="#272A34"/>
-	<color name="line-numbers" value="#23252E"/>
-	<color name="current-line" value="#44475a"/>
-	<color name="selection" value="#236BE6"/>
-	<color name="foreground" value="#f8f8f2"/>
-	<color name="comment" value="#6272a4"/>
+	<!-- Agenwulf colors -->
+	<color name="bone-white" value="#f8f8f0"/>
+	<color name="weird-gray" value="#909194"/>
 	<color name="cyan" value="#8be9fd"/>
 	<color name="green" value="#50fa7b"/>
 	<color name="orange" value="#ffb86c"/>
@@ -45,21 +17,27 @@ SOFTWARE. -->
 	<color name="yellow" value="#f1fa8c"/>
 
 	<!-- Helper colors -->
-	<color name="white" value="#ffffff"/>
-	<color name="bone-white" value="#f8f8f0"/>
-	<color name="weird-gray" value="#909194"/>
+	<color name="background" value="#272A34"/>
+	<color name="line-numbers" value="#23252E"/>
+	<color name="current-line" value="#44475a"/>
+	<color name="selection" value="#236BE6"/>
+	<color name="comment" value="#6272a4"/>
 
-	<!-- General -->
+	<!-- Basic -->
 	<style name="text" foreground="bone-white" background="background"/>
+	<style name="cursor" foreground="bone-white" background="bone-white"/>
 	<style name="selection" background="selection"/>
-	<style name="cursor" foreground="white" background="white"/>
-	<style name="current-line" foreground="current-line" background="current-line"/>
+    <style name="background-pattern" background="#2f313e"/>
+	<style name="search-match" background="current-line"/>
+	<style name="def:error" background="red" bold="true"/>
+	
+	<!-- Lines -->
 	<style name="line-numbers" foreground="weird-gray" background="line-numbers"/>
+	<style name="current-line" foreground="current-line" background="current-line"/>
+	
+	<!-- Brackets -->
 	<style name="bracket-match" foreground="bone-white" background="#6f7286" bold="true"/>
 	<style name="bracket-mismatch" foreground="red" background="current-line" bold="true"/>
-	<style name="search-match" background="current-line"/>
-    <style name="background-pattern" background="#2f313e"/>
-	<style name="def:error" background="red" bold="true"/>
 	
 	<!-- Common -->
 	<style name="def:function" foreground="green"/>
@@ -94,7 +72,7 @@ SOFTWARE. -->
 	<style name="python:module-handler" foreground="pink"/>
 	<style name="python:function-name" foreground="green"/>
 	<style name="python:decorator" foreground="green"/>
-	<style name="python:class-name" foreground="white"/>
+	<style name="python:class-name" foreground="bone-white"/>
 	<style name="python:special-variable" foreground="cyan"/>
 	<style name="python:builtin-constant" foreground="purple"/>
 
