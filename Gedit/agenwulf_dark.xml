@@ -72,7 +72,7 @@
 	<style name="python:module-handler" foreground="pink"/>
 	<style name="python:function-name" foreground="green"/>
 	<style name="python:decorator" foreground="green"/>
-	<style name="python:class-name" foreground="bone-white"/>
+	<style name="python:class-name" foreground="orange"/>
 	<style name="python:special-variable" foreground="cyan"/>
 	<style name="python:builtin-constant" foreground="purple"/>
 
