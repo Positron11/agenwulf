@@ -58,13 +58,16 @@
 	<!-- Remarqué -->
 	<style name="remarque:bold" bold="true"/>
 	<style name="remarque:italic" italic="true"/>
+	<style name="remarque:underline" underline="true"/>
+	<style name="remarque:strikethrough" strikethrough="true"/>
+	<style name="remarque:highlight" background="yellow" foreground="background" bold="true"/>
 	<style name="remarque:tree" foreground="green"/>
 	<style name="remarque:enumeration" foreground="pink"/>
 	<style name="remarque:current" foreground="yellow" bold="true"/>
 	<style name="remarque:done" foreground="green" italic="true"/>
 	<style name="remarque:banner" foreground="orange" italic="true"/>
-	<style name="remarque:heading" foreground="red"/>
-	<style name="remarque:subheading" foreground="red"/>
+	<style name="remarque:heading" foreground="orange" bold="true"/>
+	<style name="remarque:subheading" foreground="red" bold="true" italic="true"/>
 	<style name="remarque:tag" foreground="comment"/>
 	<style name="remarque:placeholder" foreground="weird-gray" italic="true"/>
 	<style name="remarque:link" foreground="cyan" underline="true" italic="true"/>
