@@ -1,8 +1,6 @@
 # Agenwulf Color Scheme
 
-A pastel color scheme, with a dark and light theme, and support for the [Remarqué](https://github.com/Positron11/remarque) tree-based note-taking language.
-
-
+A Gedit color scheme based on the [Dracula](https://github.com/dracula/dracula-theme) theme, with support for the [Remarqué](https://github.com/Positron11/remarque) tree-based note-taking language. Dark and Light variants available.
 
 ## Installation & Usage
 
@@ -12,14 +10,11 @@ A pastel color scheme, with a dark and light theme, and support for the [Remarqu
 * Launch Gedit and go to **Edit** → **Preferences** → **Font & Colors**.
 * Click on the **+** at the bottom of the panel, and in the given prompt, select the `.xml` file you just downloaded in the previous step
 
+## Contributing and Credits
 
-
-## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
-
-
+Color scheme by [Dracula](https://github.com/dracula/dracula-theme), adapted for Remarqué by Aarush Kumbhakern.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
