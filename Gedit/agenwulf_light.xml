@@ -19,6 +19,7 @@
 
 	<!-- Helper colors -->
 	<color name="background" value="#ffffff"/>
+	<color name="dark-background" value="#dddddd"/>
 	<color name="line-numbers" value="#23252E"/>
 	<color name="current-line" value="#eeeeee"/>
 	<color name="selection" value="#236BE6"/>
@@ -61,6 +62,7 @@
 	<style name="remarque:underline" underline="true"/>
 	<style name="remarque:strikethrough" strikethrough="true"/>
 	<style name="remarque:highlight" background="yellow" foreground="background" bold="true"/>
+	<style name="remarque:inline-code" background="dark-background" foreground="green"/>
 	<style name="remarque:tree" foreground="green"/>
 	<style name="remarque:enumeration" foreground="pink"/>
 	<style name="remarque:current" foreground="yellow" bold="true"/>
