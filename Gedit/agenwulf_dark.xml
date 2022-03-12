@@ -7,6 +7,7 @@
 
 	<!-- Agenwulf colors -->
 	<color name="bone-white" value="#f8f8f0"/>
+	<color name="dark-gray" value="#272A34"/>
 	<color name="weird-gray" value="#909194"/>
 	<color name="cyan" value="#8be9fd"/>
 	<color name="green" value="#50fa7b"/>
@@ -17,28 +18,27 @@
 	<color name="yellow" value="#f1fa8c"/>
 
 	<!-- Helper colors -->
-	<color name="background" value="#272A34"/>
-	<color name="dark-background" value="#1f2129"/>
-	<color name="line-numbers" value="#23252E"/>
-	<color name="current-line" value="#44475a"/>
+	<color name="dark-background" value="#rgba(0,0,0,0.1)"/>
+	<color name="light-background" value="#rgba(255,255,255,0.03)"/>
+	<color name="current-line" value="#rgba(181,199,248,0.1)"/>
 	<color name="selection" value="#236BE6"/>
 	<color name="comment" value="#6272a4"/>
 
 	<!-- Basic -->
-	<style name="text" foreground="bone-white" background="background"/>
+	<style name="text" foreground="bone-white"/>
 	<style name="cursor" foreground="bone-white" background="bone-white"/>
 	<style name="selection" background="selection"/>
-    <style name="background-pattern" background="#2f313e"/>
-	<style name="search-match" background="current-line"/>
-	<style name="def:error" background="red" bold="true"/>
+    <style name="background-pattern" background="light-background"/>
+	<style name="search-match" foreground="cyan" bold="true"/>
+	<style name="def:error" foreground="white" background="red" bold="true"/>
 	
 	<!-- Lines -->
-	<style name="line-numbers" foreground="weird-gray" background="line-numbers"/>
+	<style name="line-numbers" foreground="weird-gray" background="dark-background"/>
 	<style name="current-line" foreground="current-line" background="current-line"/>
 	
 	<!-- Brackets -->
-	<style name="bracket-match" foreground="bone-white" background="#6f7286" bold="true"/>
-	<style name="bracket-mismatch" foreground="red" background="current-line" bold="true"/>
+	<style name="bracket-match" foreground="dark-gray" background="green" bold="true"/>
+	<style name="bracket-mismatch" foreground="dark-gray" background="red" bold="true"/>
 	
 	<!-- Common -->
 	<style name="def:function" foreground="green"/>
@@ -60,7 +60,7 @@
 	<style name="remarque:italic" italic="true"/>
 	<style name="remarque:underline" underline="true"/>
 	<style name="remarque:strikethrough" strikethrough="true"/>
-	<style name="remarque:highlight" background="yellow" foreground="background" bold="true"/>
+	<style name="remarque:highlight" background="yellow" foreground="dark-gray" bold="true"/>
 	<style name="remarque:inline-code" background="dark-background" foreground="green"/>
 	<style name="remarque:tree" foreground="green"/>
 	<style name="remarque:enumeration" foreground="pink"/>
