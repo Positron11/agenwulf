@@ -19,7 +19,7 @@
 
 	<!-- Helper colors -->
 	<color name="dark-background" value="#rgba(0,0,0,0.03)"/>
-	<color name="current-line" value="#eeeeee"/>
+	<color name="current-line" value="#rgba(181,199,248,0.3)"/>
 	<color name="selection" value="#236BE6"/>
 	<color name="comment" value="#457b9d"/>
 
