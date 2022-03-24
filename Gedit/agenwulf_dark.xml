@@ -65,7 +65,8 @@
 	<style name="remarque:tree" foreground="green"/>
 	<style name="remarque:enumeration" foreground="pink"/>
 	<style name="remarque:current" foreground="yellow" bold="true"/>
-	<style name="remarque:done" foreground="green" italic="true"/>
+	<style name="remarque:done" foreground="green" italic="true" strikethrough="true"/>
+	<style name="remarque:failed" foreground="red" italic="true" strikethrough="true"/>
 	<style name="remarque:banner" foreground="orange" italic="true"/>
 	<style name="remarque:heading" foreground="orange" bold="true"/>
 	<style name="remarque:subheading" foreground="red" bold="true" italic="true"/>
