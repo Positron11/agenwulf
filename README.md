@@ -4,9 +4,16 @@ A Gedit color scheme based on the [Dracula](https://github.com/dracula/dracula-t
 
 ## Installation & Usage
 
+### GTKSourceView 5
+
+```bash
+git clone https://github.com/Positron11/agenwulf.git
+sudo mv agenwulf/GTKSourceView-5/agenwulf_*.xml /usr/share/gtksourceview-5/styles/
+```
+
 ### Gedit
 
-* Download your preferred theme from [here](https://github.com/Positron11/agenwulf-color-scheme/tree/master/Gedit) as an `.xml` file.
+* Download your preferred theme from [here](https://github.com/Positron11/agenwulf-color-scheme/tree/master/GTKSourceView-4) as an `.xml` file.
 * Launch Gedit and go to **Edit** → **Preferences** → **Font & Colors**.
 * Click on the **+** at the bottom of the panel, and in the given prompt, select the `.xml` file you just downloaded in the previous step
 
