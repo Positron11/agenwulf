@@ -53,7 +53,7 @@
 	<!-- Common -->
 	<style name="def:function" foreground="green"/>
 	<style name="def:identifier" foreground="pink"/>
-	<style name="def:keyword" foreground="pink"/>
+	<style name="def:keyword" foreground="pink" bold="true"/>
 	<style name="def:number" foreground="purple" />
 	<style name="def:boolean" foreground="red"/>
 	<style name="def:string" foreground="yellow"/>
