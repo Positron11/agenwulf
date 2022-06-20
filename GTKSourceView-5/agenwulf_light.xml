@@ -73,15 +73,15 @@
 	<style name="remarque:strikethrough" strikethrough="true"/>
 	<style name="remarque:highlight" background="yellow" foreground="dark-gray" bold="true"/>
 	<style name="remarque:inline-code" background="#rgba(0,0,0,0.1)" foreground="green"/>
-	<style name="remarque:tree" foreground="green"/>
-	<style name="remarque:enumeration" foreground="pink"/>
-	<style name="remarque:current" foreground="yellow" bold="true"/>
+	<style name="remarque:tree" foreground="green" scale="0.9"/>
+	<style name="remarque:enumeration" foreground="pink" scale="0.85"/>
+	<style name="remarque:current" foreground="yellow" bold="true" scale="1.05"/>
 	<style name="remarque:done" foreground="green" italic="true"/>
 	<style name="remarque:failed" foreground="red" italic="true"/>
-	<style name="remarque:banner" foreground="orange" italic="true"/>
+	<style name="remarque:banner" foreground="orange" italic="true" scale="0.9"/>
 	<style name="remarque:heading" foreground="orange" bold="true"/>
 	<style name="remarque:subheading" foreground="red" bold="true" italic="true"/>
-	<style name="remarque:tag" foreground="comment"/>
+	<style name="remarque:tag" foreground="comment" scale="0.9"/>
 	<style name="remarque:placeholder" foreground="weird-gray" italic="true"/>
 	<style name="remarque:link" foreground="cyan" underline="true" italic="true"/>
 	
