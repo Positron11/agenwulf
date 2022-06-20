@@ -85,6 +85,17 @@
 	<style name="remarque:placeholder" foreground="weird-gray" italic="true"/>
 	<style name="remarque:link" foreground="cyan" underline="true" italic="true"/>
 	
+	<!-- Todo -->
+	<style name="todo:priority_a" foreground="red" bold="true" scale="0.9"/>
+	<style name="todo:priority_b" foreground="yellow" bold="true" scale="0.9"/>
+	<style name="todo:priority_c" foreground="cyan" bold="true" scale="0.9"/>
+	<style name="todo:priority_d" foreground="weird-gray" scale="0.9"/>
+	<style name="todo:status" foreground="weird-gray" italic="true" strikethrough="true"/>
+	<style name="todo:project" foreground="green" bold="true" scale="0.95 "/>
+	<style name="todo:context" foreground="yellow" italic="true" scale="0.9"/>
+	<style name="todo:label" foreground="pink" scale="0.9"/>
+	<style name="todo:date" foreground="comment" scale="0.9"/>
+	
 	<!-- Python -->
 	<style name="python:module-handler" foreground="pink"/>
 	<style name="python:function-name" foreground="green"/>
