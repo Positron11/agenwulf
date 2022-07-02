@@ -8,7 +8,7 @@ A Gedit color scheme based on the [Dracula](https://github.com/dracula/dracula-t
 
 ```bash
 git clone https://github.com/Positron11/agenwulf-color-scheme.git
-sudo mv agenwulf/GTKSourceView-5/agenwulf_*.xml /usr/share/gtksourceview-5/styles/
+sudo mv agenwulf-color-scheme/GTKSourceView-5/agenwulf_*.xml /usr/share/gtksourceview-5/styles/
 ```
 
 ### Gedit
