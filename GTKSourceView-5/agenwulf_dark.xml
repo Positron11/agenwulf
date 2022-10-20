@@ -5,106 +5,171 @@
 	<author>Aarush Kumbhakern</author>
 	<_description>A dark theme for GTKSourceView 5.0</_description>
 	
+
 	<!-- Meta -->
 	<metadata>
 		<property name="variant">dark</property>
 		<property name="light-variant">agenwulf_light</property>
 	</metadata>
 
-	<!-- Agenwulf colors -->
-	<color name="bone-white" value="#f8f8f0"/>
-	<color name="weird-gray" value="#909194"/>
-	<color name="cyan" value="#8be9fd"/>
-	<color name="green" value="#50fa7b"/>
-	<color name="orange" value="#ffb86c"/>
-	<color name="pink" value="#ff79c6"/>
-	<color name="purple" value="#bd93f9"/>
-	<color name="red" value="#ff5555"/>
-	<color name="yellow" value="#f1fa8c"/>
+
+	<!-- Monokai palette -->
+	<color name="white" value="#f8f8f2"/>
+	<color name="light-gray" value="#cfcfc2"/>
+	<color name="dark-gray" value="#75715e"/>
+	<color name="darker-gray" value="#47463b"/>
+	<color name="yellow" value="#e6db74"/>
+	<color name="orange" value="#fd971f"/>
+	<color name="red" value="#f92672"/>
+	<color name="magenta" value="#fd5ff0"/>
+	<color name="violet" value="#ae81ff"/>
+	<color name="blue" value="#66d9ef"/>
+	<color name="cyan" value="#a1efe4"/>
+	<color name="green" value="#a6e22e"/>
+
 
 	<!-- Helper colors -->
 	<color name="background" value="#202020"/>
-	<color name="current-line" value="#rgba(255,255,255,0.1)"/>
-	<color name="selection" value="#236BE6"/>
-	<color name="comment" value="#6272a4"/>
+	<color name="glass" value="#rgba(255,255,255,0.05)"/>
+
 
 	<!-- Text -->
-	<style name="text" foreground="bone-white" background="background"/>
-	<style name="cursor" foreground="bone-white" background="bone-white"/>
-	<style name="selection" background="selection"/>
-	<style name="def:error" foreground="white" background="red" bold="true"/>
+	<style name="text" foreground="white" background="background"/>
+	<style name="cursor" foreground="white" background="white"/>
+	<style name="selection" foreground="white" background="glass"/>
 	<style name="misspelled-word" underline="error" underline-color="red"/>
 
+
 	<!-- Editor -->
-	<style name="map-overlay" background="#dedede"/>
+	<style name="map-overlay" background="#999"/>
   	<style name="background-pattern" background="#rgba(16,16,16,0.27)"/>
-  	<style name="right-margin" foreground="#77767b" background="#c0bfbc"/>
-	<style name="search-match" foreground="background" background="green" bold="true"/>
+  	<style name="right-margin" foreground="red" background="red"/>
+	<style name="search-match" foreground="background" background="green"/>
 	
+
 	<!-- Lines -->
-	<style name="line-numbers" foreground="weird-gray" background="background"/>
-	<style name="current-line" foreground="current-line" background="current-line"/>
-	<style name="current-line-number" foreground="bone-white" bold="true"/>
+	<style name="current-line" background="glass"/>
+	<style name="line-numbers" foreground="darker-gray" background="background"/>
+	<style name="current-line-number" foreground="light-gray" bold="true"/>
 	
+
 	<!-- Brackets -->
-	<style name="bracket-match" foreground="background" background="green" bold="true"/>
-	<style name="bracket-mismatch" foreground="background" background="red" bold="true"/>
+	<style name="bracket-match" foreground="green" underline="low" underline-color="green" bold="true"/>
+	<style name="bracket-mismatch" foreground="red" underline="low" underline-color="red" bold="true"/>
 	
+
 	<!-- Common -->
-	<style name="def:function" foreground="green"/>
-	<style name="def:identifier" foreground="pink"/>
-	<style name="def:keyword" foreground="pink" bold="true"/>
-	<style name="def:number" foreground="purple" />
-	<style name="def:boolean" foreground="red"/>
+	<style name="def:base-n-integer" foreground="violet"/>
+	<style name="def:floating-point" foreground="violet"/>
+	<style name="def:number" foreground="violet"/>
+	<style name="def:decimal" foreground="violet"/>
+	<style name="def:boolean" foreground="yellow"/>
+	<style name="def:constant" foreground="violet"/>
+
 	<style name="def:string" foreground="yellow"/>
-	<style name="def:special-char" foreground="pink"/>
-	<style name="def:builtin" foreground="cyan"/>
-	<style name="def:type" foreground="green"/>
-	<style name="def:preprocessor" foreground="green"/>
-	<style name="def:comment" foreground="comment" italic="true"/>
-	<style name="def:specials" foreground="#f8f8f2"/>
-	<style name="def:statement" foreground="pink"/>
+	<style name="def:special-char" foreground="red"/>
+
+	<style name="def:comment" foreground="dark-gray" italic="true"/>
+	<style name="def:doc-comment-element" foreground="dark-gray"/>
 	
+	<style name="def:emphasis" italic="true"/>
+	<style name="def:underlined" underline="single"/>
+	
+	<style name="def:error" underline="error" underline-color="red"/>
+	<style name="def:warning" underline="error" underline-color="yellow"/>
+	<style name="def:strong-emphasis" bold="true"/>
+	
+	<style name="def:type" foreground="blue" italic="true"/>
+	<style name="def:identifier" foreground="cyan" italic="true"/>
+	<style name="def:function" foreground="red"/>
+	<style name="def:keyword" foreground="red" bold="true"/>
+	
+	<style name="def:preprocessor" foreground="red"/>
+	<style name="def:shebang" foreground="dark-gray" bold="true"/>
+	
+	<style name="def:heading" foreground="green" bold="true"/>
+	<style name="def:inline-code" foreground="violet"/>
+	<style name="def:link-destination" foreground="blue" italic="true" underline="low"/>
+	<style name="def:list-marker" foreground="orange" bold="true"/>
+	<style name="def:link-text" foreground="red"/>
+	<style name="def:net-address" foreground="blue" underline="low"/>
+	<style name="def:preformatted-section" foreground="violet"/>
+
+
+	<!-- C -->
+	<style name="c:printf" foreground="green"/>
+	<style name="c:signal-name" foreground="red"/>
+	<style name="c:storage-class" foreground="cyan" bold="true"/>
+	<style name="c:type-keyword" foreground="cyan" bold="true"/>
+
+
+	<!-- Python -->
+	<style name="python:module-handler" foreground="red"/>
+	<style name="python:function-name" foreground="blue"/>
+	<style name="python:decorator" foreground="green"/>
+	<style name="python:class-name" foreground="yellow"/>
+	<style name="python:special-variable" foreground="cyan"/>
+	<style name="python:builtin-constant" foreground="violet"/>
+	<style name="python:builtin-object" foreground="yellow"/>
+	<style name="python:builtin-function" foreground="cyan" italic="true"/>
+	<style name="python:string-conversion" background="gray"/>
+	<style name="python:boolean" foreground="orange" bold="true"/>
+
+
+	<!-- CSS -->
+	<style name="css:id-selector" foreground="red" bold="true"/>
+	<style name="css:property-name" foreground="white"/>
+	<style name="css:pseudo-selector" foreground="dark-gray" bold="true"/>
+	<style name="css:selector-symbol" foreground="green" bold="true"/>
+	<style name="css:type-selector" foreground="blue" bold="true"/>
+	<style name="css:vendor-specific" foreground="light-gray" italic="true"/>
+
+
+	<!-- XML -->
+	<style name="xml:attribute-name" foreground="blue" italic="true"/>
+	<style name="xml:attribute-value" foreground="yellow"/>
+	<style name="xml:element-name" foreground="red"/>
+	<style name="xml:namespace" foreground="yellow"/>
+	<style name="xml:processing-instruction" foreground="red"/>
+	
+
 	<!-- Remarqué -->
 	<style name="remarque:bold" bold="true"/>
 	<style name="remarque:italic" italic="true"/>
-	<style name="remarque:underline" underline="true"/>
+	<style name="remarque:underline" underline="low" underline-color="white"/>
 	<style name="remarque:strikethrough" strikethrough="true"/>
 	<style name="remarque:highlight" background="yellow" foreground="background" bold="true"/>
 	<style name="remarque:inline-code" background="#rgba(0,0,0,0.3)" foreground="green"/>
 	<style name="remarque:tree" foreground="green" scale="0.9"/>
-	<style name="remarque:enumeration" foreground="pink" scale="0.85"/>
+	<style name="remarque:enumeration" foreground="magenta" scale="0.85"/>
 	<style name="remarque:current" foreground="yellow" bold="true" scale="1.05"/>
 	<style name="remarque:done" foreground="green" italic="true" strikethrough="true"/>
 	<style name="remarque:failed" foreground="red" italic="true" strikethrough="true"/>
 	<style name="remarque:banner" foreground="orange" italic="true" scale="0.9"/>
 	<style name="remarque:heading" foreground="orange" bold="true"/>
 	<style name="remarque:subheading" foreground="red" bold="true" italic="true"/>
-	<style name="remarque:tag" foreground="comment" scale="0.9"/>
-	<style name="remarque:placeholder" foreground="weird-gray" italic="true"/>
-	<style name="remarque:link" foreground="cyan" underline="true" italic="true"/>
+	<style name="remarque:tag" foreground="dark-gray" scale="0.9"/>
+	<style name="remarque:placeholder" foreground="darker-gray" italic="true"/>
+	<style name="remarque:link" foreground="blue" underline="true" italic="true"/>
+	<style name="remarque:style-marker" foreground="darker-gray" scale="0.1"/>
 	
+
 	<!-- Todo -->
 	<style name="todo:priority_a" foreground="red" bold="true" scale="0.9"/>
 	<style name="todo:priority_b" foreground="yellow" bold="true" scale="0.9"/>
-	<style name="todo:priority_c" foreground="cyan" bold="true" scale="0.9"/>
-	<style name="todo:priority_d" foreground="weird-gray" scale="0.9"/>
-	<style name="todo:status" foreground="weird-gray" italic="true" strikethrough="true"/>
+	<style name="todo:priority_c" foreground="blue" bold="true" scale="0.9"/>
+	<style name="todo:priority_d" foreground="dark-gray" scale="0.9"/>
+	<style name="todo:status" foreground="dark-gray" italic="true" strikethrough="true"/>
 	<style name="todo:project" foreground="green" bold="true" scale="0.95 "/>
 	<style name="todo:context" foreground="yellow" italic="true" scale="0.9"/>
-	<style name="todo:label" foreground="pink" scale="0.9"/>
-	<style name="todo:date" foreground="comment" scale="0.9"/>
-	
-	<!-- Python -->
-	<style name="python:module-handler" foreground="pink"/>
-	<style name="python:function-name" foreground="green"/>
-	<style name="python:decorator" foreground="green"/>
-	<style name="python:class-name" foreground="orange"/>
-	<style name="python:special-variable" foreground="cyan"/>
-	<style name="python:builtin-constant" foreground="purple"/>
+	<style name="todo:label" foreground="magenta" scale="0.9"/>
+	<style name="todo:date" foreground="dark-gray" scale="0.9"/>
+
 
 	<!-- Git -->
-	<style background="#468410" bold="true" foreground="#f8f8f2" name="diff:added-line"/>
-	<style foreground="#8b080b" name="diff:removed-line"/>
-	<style background="#243a5f" foreground="#f8f8f2" name="diff:changed-line"/>
+	<style name="diff:added-line" foreground="green"/>
+	<style name="diff:changed-line" foreground="orange"/>
+	<style name="diff:diff-file" foreground="violet"/>
+	<style name="diff:location" foreground="yellow"/>
+	<style name="diff:removed-line" foreground="red"/>
 </style-scheme>
