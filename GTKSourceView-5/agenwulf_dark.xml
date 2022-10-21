@@ -73,7 +73,7 @@
 	<style name="def:doc-comment-element" foreground="dark-gray"/>
 	
 	<style name="def:emphasis" italic="true"/>
-	<style name="def:underlined" underline="single"/>
+	<style name="def:underlined" underline="low"/>
 	
 	<style name="def:error" underline="error" underline-color="red"/>
 	<style name="def:warning" underline="error" underline-color="yellow"/>
@@ -150,7 +150,7 @@
 	<style name="remarque:subheading" foreground="red" bold="true" italic="true"/>
 	<style name="remarque:tag" foreground="dark-gray" scale="0.9"/>
 	<style name="remarque:placeholder" foreground="darker-gray" italic="true"/>
-	<style name="remarque:link" foreground="blue" underline="true" italic="true"/>
+	<style name="remarque:link" foreground="blue" underline="low" underline-color="blue" italic="true"/>
 	<style name="remarque:style-marker" foreground="darker-gray" scale="0.1"/>
 	
 
