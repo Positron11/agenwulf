@@ -27,7 +27,6 @@
 	<color name="cyan" value="#219186"/>
 	<color name="green" value="#22aa44"/>
 
-
 	<!-- Helper colors -->
 	<color name="background" value="#ffffff"/>
 	<color name="glass" value="#rgba(0,0,0,0.06)"/>
@@ -134,24 +133,35 @@
 	
 
 	<!-- Remarqué -->
-	<style name="remarque:bold" bold="true"/>
-	<style name="remarque:italic" italic="true"/>
-	<style name="remarque:underline" underline="low" underline-color="darker-gray"/>
-	<style name="remarque:strikethrough" strikethrough="true"/>
-	<style name="remarque:highlight" background="yellow" foreground="darker-gray" bold="true"/>
-	<style name="remarque:inline-code" background="darker-gray" foreground="green"/>
-	<style name="remarque:tree" foreground="green" scale="0.9"/>
-	<style name="remarque:enumeration" foreground="magenta" scale="0.85"/>
-	<style name="remarque:current" foreground="orange" bold="true" scale="1.05"/>
-	<style name="remarque:done" foreground="green" italic="true" strikethrough="true"/>
-	<style name="remarque:failed" foreground="red" italic="true" strikethrough="true"/>
-	<style name="remarque:banner" foreground="orange" italic="true" scale="0.9"/>
-	<style name="remarque:heading" foreground="orange" bold="true"/>
-	<style name="remarque:subheading" foreground="red" bold="true" italic="true"/>
-	<style name="remarque:tag" foreground="dark-gray" scale="0.9"/>
-	<style name="remarque:placeholder" foreground="light-gray" italic="true"/>
-	<style name="remarque:link" foreground="blue" underline="low" underline-color="blue" italic="true"/>
-	<style name="remarque:style-marker" foreground="light-gray" scale="0.1"/>
+	<style name="remarque:doctitle-tag" foreground="dark-gray" bold="true" scale="0.9" />
+	<style name="remarque:doctitle-name" foreground="orange" bold="true" />
+	
+	<style name="remarque:section-number" foreground="dark-gray" scale="0.9" bold="true" />
+	<style name="remarque:section-name" foreground="red" bold="true" italic="true" />
+	
+	<style name="remarque:bold" bold="true" />
+	<style name="remarque:italic" italic="true" />
+	<style name="remarque:underline" underline="low" underline-color="white" />
+	<style name="remarque:strikethrough" strikethrough="true" />
+	<style name="remarque:highlight" background="yellow" bold="true" />
+	<style name="remarque:inline-code" background="darker-gray" foreground="green" />
+	
+	<style name="remarque:hidden-style-marker" foreground="darker-gray" scale="0.1" />
+	<style name="remarque:highlight-style-marker" foreground="yellow" background="yellow" scale="0.75" />
+	<style name="remarque:code-style-marker" foreground="darker-gray" background="darker-gray" scale="0.75" />
+	
+	<style name="remarque:tree" foreground="darker-gray" bold="true" />
+	<style name="remarque:enumeration" foreground="magenta" scale="0.9" />
+	<style name="remarque:leaf" foreground="green" />
+	
+	<style name="remarque:completed-item" strikethrough="true" />
+	<style name="remarque:failed-marker" foreground="red" />
+	<style name="remarque:done-marker" foreground="green" />
+	
+	<style name="remarque:tag" foreground="dark-gray" bold="true" />
+	<style name="remarque:placeholder" foreground="light-gray" italic="true" bold="true" />
+	
+	<style name="remarque:link" foreground="blue" underline="low" underline-color="blue" italic="true" />
 	
 
 	<!-- Todo -->
@@ -159,10 +169,12 @@
 	<style name="todo:priority_b" foreground="orange" bold="true" scale="0.9"/>
 	<style name="todo:priority_c" foreground="blue" bold="true" scale="0.9"/>
 	<style name="todo:priority_d" foreground="dark-gray" scale="0.9"/>
+	
 	<style name="todo:status" foreground="dark-gray" italic="true" strikethrough="true"/>
 	<style name="todo:project" foreground="green" bold="true" scale="0.95 "/>
 	<style name="todo:context" foreground="orange" italic="true" scale="0.9"/>
 	<style name="todo:label" foreground="magenta" scale="0.9"/>
+	
 	<style name="todo:date" foreground="dark-gray" scale="0.9"/>
 
 
