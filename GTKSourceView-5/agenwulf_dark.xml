@@ -151,7 +151,8 @@
 	<style name="remarque:code-style-marker" foreground="#rgba(0,0,0,0.3)" background="#rgba(0,0,0,0.3)" scale="0.75" />
 	
 	<style name="remarque:tree" foreground="darker-gray" bold="true" />
-	<style name="remarque:enumeration" foreground="magenta" scale="0.9" />
+	<style name="remarque:enumeration-brackets" foreground="magenta" scale="0.9" />
+	<style name="remarque:enumeration-content" foreground="yellow" />
 	<style name="remarque:leaf" foreground="green" />
 	
 	<style name="remarque:completed-item" strikethrough="true" />
