@@ -1,21 +1,14 @@
 # Agenwulf Color Scheme
 
-A Gedit color scheme based on the Monokai theme, with support for the [Remarqué](https://github.com/Positron11/remarque) tree-based note-taking language. Dark and Light variants available.
+A GTKSourceView color scheme based on the Monokai theme, with support for the [Remarqué](https://github.com/Positron11/remarque) tree-based note-taking language. Dark and Light variants available.
 
 ## Installation & Usage
-
-### GTKSourceView 5
 
 ```bash
 git clone https://github.com/Positron11/agenwulf-color-scheme.git
 sudo mv agenwulf-color-scheme/GTKSourceView-5/agenwulf_*.xml /usr/share/gtksourceview-5/styles/
+rm -rf ./agenwulf-color-scheme
 ```
-
-### Gedit
-
-* Download your preferred theme from [here](https://github.com/Positron11/agenwulf-color-scheme/tree/master/GTKSourceView-5) as an `.xml` file.
-* Launch Gedit and go to **Edit** → **Preferences** → **Font & Colors**.
-* Click on the **+** at the bottom of the panel, and in the given prompt, select the `.xml` file you just downloaded in the previous step
 
 ## Contributing and Credits
 
